@@ -90,7 +90,7 @@ class Gameplay:
 
     def spawn_ghost(self):
         # Создание призрака
-        self.ghost_list_in_game.append(self.ghost.get_rect(topleft=(755, 350)))
+        self.ghost_list_in_game.append(self.ghost.get_rect(topleft=(755, 355)))
 
         if len(self.ghost_list_in_game) == 1:
             self.game.questions.ask_question()
